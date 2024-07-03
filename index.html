@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Block with Copy Button and Theme Switcher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Code Block</h1>
+      <button id="theme-toggle" class="button">Toggle Dark Mode</button>
+    </div>
+    <div class="code-wrapper">
+      <div id="copy-container" class="copy-container">
+        <span id="file-label">example.js</span>
+        <button id="copy-button" class="button">Copy</button>
+      </div>
+      <pre id="code-container" class="code-container">
+        <code id="code-block">
+const exampleFunction = () => {
+  console.log('Hello, World!');
+};
+
+exampleFunction();
+        </code>
+      </pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
