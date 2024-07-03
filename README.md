@@ -1,6 +1,5 @@
 # Copy Code To Clipboard
 
-markdown
 # Code Block with Copy Button and Theme Switcher
 
 This project provides a simple HTML page with a code block, a copy button, and a theme switcher to toggle between light and dark modes. It uses plain CSS for styling and JavaScript for functionality.
